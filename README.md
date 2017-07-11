@@ -12,4 +12,4 @@ This bot literally does fucking nothing right now (except connect to specified c
 
 ## Terminal
 Extra control using stdin where `lacey.js` is running
-- `<message>`: Send a message to the home channel (first channel specified in `auth.json` as Lacey
+- `<message>`: Send a message to the home channel (first channel specified in `auth.json`) as Lacey
