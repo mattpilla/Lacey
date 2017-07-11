@@ -1,4 +1,6 @@
 # Lacey
+Twitch channel: [Lacey96](https://twitch.tv/lacey96)
+
 Built with [tmi.js](https://github.com/tmijs)
 
 Lacey is a personalized twitch bot, making this repo have very little value to anyone else. However, if you wish to use this bot (or build off of it):
