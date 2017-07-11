@@ -1,0 +1,22 @@
+{
+  "name": "lacey",
+  "version": "1.0.0",
+  "description": "Twitch bot",
+  "main": "lacey.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattpilla/Lacey.git"
+  },
+  "author": "Kaztalek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattpilla/Lacey/issues"
+  },
+  "homepage": "https://github.com/mattpilla/Lacey#readme",
+  "dependencies": {
+    "tmi.js": "^1.2.1"
+  }
+}
