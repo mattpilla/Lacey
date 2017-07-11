@@ -1,0 +1,15 @@
+{
+    "channels": ["#<channel name>"],
+    "connection": {
+        "reconnect": true,
+        "secure": true
+    },
+    "identity": {
+        "password": "<oauth password>",
+        "username": "<bot name>"
+    },
+    "options": {
+        "clientId": "<twitch client id>",
+        "debug": true
+    }
+}

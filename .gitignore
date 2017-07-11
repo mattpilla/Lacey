@@ -1,3 +1,8 @@
+auth.json
+
+#######################
+Generic Node .gitignore
+#######################
 # Logs
 logs
 *.log
