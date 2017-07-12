@@ -15,6 +15,19 @@ readline.on('line', line => {
 });
 
 /***
+ * Message read
+ ***/
+twitch.on('chat', (channel, userstate, message, self) => {
+    if (self) {
+        // Ignore own messages
+        return;
+    }
+    if (message === 'hey') {
+        twitch.say(channel, 'shut the fuck up');
+    }
+});
+
+/***
  * Log uncaught errors
  ***/
 process.on('uncaughtException', err => {

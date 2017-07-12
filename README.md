@@ -10,7 +10,7 @@ Lacey is a personalized twitch bot, making this repo have very little value to a
 - `node lacey`
 
 ## Commands
-This bot literally does fucking nothing right now (except connect to specified channels and silently listen to everything you do). This section will always list everything the bot can do (including now).
+- `hey`: Greets you! : )
 
 ## Terminal
 Extra control using stdin where `lacey.js` is running
