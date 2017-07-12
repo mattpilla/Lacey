@@ -10,7 +10,8 @@ Lacey is a personalized twitch bot, making this repo have very little value to a
 - `node lacey`
 
 ## Commands
-- `hey`: Greets you! : )
+- `hey`: Greets you : )
+- `!wr <game> (category)`: Gives world record for game and category from [speedrun.com API](https://github.com/speedruncom/api)
 
 ## Terminal
 Extra control using stdin where `lacey.js` is running
