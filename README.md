@@ -13,7 +13,7 @@ Lacey is a personalized twitch bot, making this repo have very little value to a
 `<>` indicates required parameters, `()` indicates optional parameters
 - `hey`: Greets you : )
 - `!wr <game> (category)`: Gives world record for game and category from [speedrun.com API](https://github.com/speedruncom/api)
-- `define <search term>`: Gives top definition of term from Urban Dictionary
+- `!define <search term>`: Gives top definition of term from Urban Dictionary
 
 ## Terminal
 Extra control using stdin where `lacey.js` is running

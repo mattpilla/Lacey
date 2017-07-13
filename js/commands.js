@@ -81,7 +81,7 @@ module.exports = {
                     let result = data.list[0];
                     callback(null, `"${result.word}": ${result.definition}
                         ex) ${result.example}
-                        ${result.thumbs_up}/${result.thumbs_down}
+                        (${result.thumbs_up}↑ ${result.thumbs_down}↓)
                         ${result.permalink}`
                     );
                 } else {
