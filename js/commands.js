@@ -70,5 +70,24 @@ module.exports = {
                     + '<game> and <category> use the (case-sensitive) abbreviations on https://speedrun.com');
             }
         );
+    },
+    // Define term using the UrbanDictionary API
+    define(args, callback) {
+        let term = args.splice(1).join(' ');
+        this.requestJSON(
+            'http://api.urbandictionary.com/v0/define?term=' + encodeURIComponent(term),
+            data => {
+                if (data.list.length) {
+                    let result = data.list[0];
+                    callback(null, `"${result.word}": ${result.definition}
+                        ex) ${result.example}
+                        ${result.thumbs_up}/${result.thumbs_down}
+                        ${result.permalink}`
+                    );
+                } else {
+                    callback(null, 'no results for "' + term + '"');
+                }
+            }
+        );
     }
 };

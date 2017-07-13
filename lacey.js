@@ -33,6 +33,10 @@ twitch.on('chat', (channel, userstate, message, self) => {
         commands.getWR(args, (err, msg) => {
             twitch.say(channel, msg);
         });
+    } else if (args[0] === '!define' && args.length > 1) {
+        commands.define(args, (err, msg) => {
+            twitch.say(channel, msg);
+        });
     }
 });
 
