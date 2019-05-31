@@ -5,9 +5,9 @@ Built with [tmi.js](https://github.com/tmijs)
 
 Lacey is a personalized twitch bot, making this repo have very little value to anyone else. However, if you wish to use this bot (or build off of it):
 - clone this repo
-- `npm install`
 - create `auth.json` (following the example file as a base)
-- `node lacey`
+- `npm ci`
+- `npm start`
 
 ## Commands
 `<>` indicates required parameters, `()` indicates optional parameters
